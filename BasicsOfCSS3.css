@@ -1,0 +1,32 @@
+body {
+    /* Size of all content into body by pixel unit */
+    font-size: 10px;
+    /* Make all content into center of page */
+    text-align: center;
+}
+
+h1 {
+    /* Size of h1 tag by EM unit is dynamic size*/
+    /* Hint: size of h1 tag is 5 times greater than body size  [Cause h1 tag is inside body] */
+    font-size: 5.0em;
+    /*from 100-900 || normal-bold*/
+    font-weight: 900;
+}
+
+p {
+    /* Size of p tag by EM unit is dynamic size*/
+    /* Hint: size of p tag is 2 times greater than body size  [Cause p tag is inside body]*/
+    font-size: 2.0em;
+    /* Style of text 'Fondamento' is getting from google/fonts lib*/
+    font-family: Fondamento;
+    /* Spacing between lines */
+    line-height: 1.5;
+}
+
+span {
+    /* Size of span tag by EM unit is dynamic size*/
+    /* Hint: size of span tag is 2 times greater than p tag size  [Cause span tag is inside p tag]*/
+    font-size: 2.0em;
+    font-family: cursive;
+    text-decoration: underline;
+}

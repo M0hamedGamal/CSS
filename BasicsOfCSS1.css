@@ -1,0 +1,82 @@
+/* Style for body */
+
+body {
+    background: url(https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Style for all content & cannot override on it */
+
+* {
+    border: 1px solid gray;
+    font-size: 30px;
+    margin: 3px;
+    /* color: orange; */
+}
+
+
+/* Style for all (a tags) */
+
+a {
+    color: yellow;
+}
+
+
+/* Style for all (a tags) that inside (li tag) that inside (ul tag) */
+
+ul li a {
+    color: chartreuse;
+}
+
+
+/* Style for all (ul tags) that after (h4 tags) */
+
+h4+ul {
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* Style for all (a tags) that have href = google */
+
+a[href="http://www.google.com"] {
+    font-family: cursive;
+}
+
+
+/* Style for element number 3 into of all (li tags) */
+
+li:nth-of-type(3) {
+    background-color: tomato;
+}
+
+
+/* Style for element even number into of all (li tags) */
+
+li:nth-of-type(even) {
+    color: orange;
+}
+
+
+/* Style for ID called 'Special' */
+
+#Special {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Style for Class called 'same' */
+
+.same {
+    color: salmon;
+}
+
+
+/* Style for Class called 'another' */
+
+.another {
+    color: seagreen;
+}
